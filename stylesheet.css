@@ -3,7 +3,7 @@
 	padding:0;
 }
 html { 
-  background: url("image4.jpg") no-repeat center center fixed; 
+  background: url("../images/image4.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,8 +11,10 @@ html {
 }
 
 div.main{
-	width:80%;
+	width:90%;
 	margin:100px auto 0px auto;
+	display: grid;
+      	place-items: center;
 }
 div.fill{
 	background-color:rgba(0,0,0,0.5);
@@ -22,13 +24,15 @@ div.fill{
 	border:4px solid rgba(255,255,255,0.3);
 	box-shadow:2px 2px 15px rgba(0,0,0,0.3);
 	color:#fff;
+	display: grid;
+      	place-items: center;
 }
 
 img{
 	padding:50px;
 	width:80%;
-	margin-left: auto;
-  	margin-right: auto;
+	height:80%
+	margin:0 auto;
 	display: block;
 }
 
@@ -40,6 +44,3 @@ h2{
 	padding:20px;
 	text-shadow:1px 1px 5px rgba(0,0,0,0.3);
 }
-	
-	
-	
