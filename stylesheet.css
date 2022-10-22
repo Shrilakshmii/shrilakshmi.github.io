@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+html { 
+  background: url("image4.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.main{
+	width:67.5%;
+	margin:100px auto 0px auto;
+}
+div.fill{
+	background-color:rgba(0,0,0,0.5);
+	width:100%;
+	font-size:18px;
+	border-radius:10px;
+	border:4px solid rgba(255,255,255,0.3);
+	box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+	color:#fff;
+}
+
+img{
+	padding:50px;
+}
+
+h2{
+	font-family:serif;
+	font-size:35px;
+	font-style:bold;
+	text-align:center;
+	padding:20px;
+	text-shadow:1px 1px 5px rgba(0,0,0,0.3);
+}
+	
+	
+	
